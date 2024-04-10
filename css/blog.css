@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    background: linear-gradient(rgba(164, 241, 178, 0.714), rgba(72, 190, 230, 0.709));
+    border-bottom: 2px solid rgb(149, 179, 239);
+    height: 10vh;
+    
+}
+.title_name{
+    color: #280aeeb2;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 1%;
+    margin-left: 1%;
+    display: inline-block;
+}
+.logo{
+    float: left;
+    margin-left: 2%;
+    max-width: 6%;
+    height: auto;
+    width: auto;
+}
+.menu{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5%;
+}
+.texto{
+    color: #090909;
+    fill: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.texto:hover{
+    background-color: #090909;
+    color: #26c6da;
+}
+.fotos{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.fondo{
+    background: linear-gradient(rgba(229, 231, 235, 0.714), rgba(252, 252, 255, 0.709));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+}
+.fondo_menu{
+    background-image: url(../images/informatica.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 90%;
+    border-bottom: 5px solid wheat;
+    position: relative;
+    height: 30vh;
+}
+.celdas{
+    background: linear-gradient(rgba(27, 60, 152, 0.3), rgba(194, 194, 195, 0.3));
+    border-left: 3px solid rgb(195, 179, 245);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1%;
+    width: 200px;
+    height: auto;
+    color: #8ab7d0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.celdas:hover{
+    background: linear-gradient(rgba(142, 165, 211, 0.714), rgba(119, 119, 219, 0.709));
+    width: 20px;
+    height: 10px;
+}
+
+.table_form{
+    padding: 3%;
+    padding-block: center;
+}
+.container{
+    border: 1px;
+    background: linear-gradient(rgba(227, 237, 204, 0.714), rgba(119, 119, 219, 0.709));
+}
+.avatar{
+    height: 50%;
+    width: 100%;
+    cursor: pointer;
+}
+.colum_lateral{
+    background-color: black;
+    width: 20%;
+    background-image: linear-gradient(0deg, #1b1b1b 0%, rgb(117, 175, 177) 20%, #7452528c 50%, black 98%, #0b655d 100%), url(../images/bosque.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.lateral_list{
+    padding: 0%;
+}
+.lateral_items{
+    background: rgb(231, 216, 216);
+    background-color: transparent;
+    padding: 7%;
+    font-weight: 300;
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    border: 2px;
+    transition: all 0.6s;
+}
+.lateral_items:hover{
+    color: rgb(78, 80, 81);
+    background: linear-gradient(45deg, #4ff5aa 0%, #ffca28 100%);
+}
+.colum_content{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 0px !important;
+    vertical-align: unset !important;
+}
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    35%{margin-left: 0;}
+
+    40%{margin-left: -100%;}
+    70%{margin-left: -100%;}
+
+    75%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+.card{
+    float: left;
+    width: 23%;
+    height: 300px;
+    margin: 1%;
+    padding: 1%;
+    color: rgb(225, 219, 219);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px 0 rgba(98, 198, 218, 0.5);
+    background: -webkit-linear-gradient(45deg, #92b1f7 0%, #26c6da 100%);
+}
+.card:hover{
+    background: linear-gradient(rgba(142, 165, 211, 0.714), rgba(119, 119, 219, 0.709));
+}
+.card2{
+    float: left;
+    width: 23%;
+    height: 300px;
+    margin: 1%;
+    padding: 1%;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 6px 20px 0  rgba(98, 198, 218, 0.5);
+    background: linear-gradient(45deg, #161905 0%, #ffca28 100%);
+    transition: all 1s;
+}
+.card2:hover{
+    background: linear-gradient(rgba(142, 165, 211, 0.714), rgba(119, 119, 219, 0.709));
+}
+.container-footer{
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(rgba(124, 142, 178, 0.714), rgba(252, 252, 255, 0.709));
+    margin-top: 40px;
+}
+
+.logo-footer{
+    margin-left: 47%;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: rgb(99, 97, 97);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+.icon-footer:hover{
+    background: #04547f;
+    width: 25px;
+    height: 25px;
+    transition: 2seg;
+    color: #ffffff;
+}

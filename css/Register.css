@@ -1,0 +1,138 @@
+.title{
+    margin: 0%;
+    background: black;
+    font-size: auto;
+
+}
+.title_name{
+    color: #ffffff;
+    font-family: 'Lucida Calligraphy', 'Lucida', serif;
+    font-size: 22px;
+    margin-left: 1%;
+    display: inline-block;
+}
+.menu{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5%;
+}
+.texto{
+    color: #ffffff;
+    fill: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.menu:hover {
+    transform: translateY(-2px); /* Levantar el texto al pasar el cursor */
+}
+.logo{
+    float: left;
+    margin-left: 2%;
+    max-width: 4%;
+    height: auto;
+    width: auto;
+}
+.title_form{
+    background: rgb(255, 246, 211);
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    padding: 1%;
+    font-size: auto;
+    border: 2px solid rgb(224, 185, 113);
+}
+.fondo{
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.form_label{
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace, sans-serif   ;
+    display: inline block;
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: left;
+    display: flex;
+
+}
+.form_input{
+    color: white;
+    border: black;
+    border-bottom: 1px solid rgb(164, 159, 159);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: auto;
+}
+.form_select{
+    
+    width: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: auto;
+}
+.form_dni{
+    display: inline;
+}
+.btn_primary{
+    color: rgb(15, 14, 14);
+    background-color: rgb(155, 155, 232);
+    border-color: rgb(48, 48, 96);
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 25rem;
+    cursor: pointer;
+    width: auto;
+    font-size: 20px;
+    transition: all .5s;
+}
+.btn_primary:hover{
+    background: rgb(227, 130, 130);
+    box-shadow: 0 0 5px #6dcff680;
+}
+.container-footer{
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(rgba(229, 231, 235, 0.714), rgba(252, 252, 255, 0.709));
+    margin-top: 40px;
+}
+
+.logo-footer{
+    margin-left: 47%;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: rgb(99, 97, 97);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+.icon-footer:hover{
+    background: #04547f;
+    width: 25px;
+    height: 25px;
+    transition: 2seg;
+    color: #ffffff;
+}

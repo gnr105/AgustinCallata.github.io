@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    margin: 0%;
+    background: black;
+    font-size: auto;
+
+}
+.title_name{
+    color: #ffffff;
+    font-family: 'Lucida Calligraphy', 'Lucida', serif;
+    font-size: 22px;
+    margin-left: 1%;
+    display: inline-block;
+}
+.logo{
+    float: left;
+    margin-left: 2%;
+    max-width: 4%;
+    height: auto;
+    width: auto;
+}
+.menu{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5%;
+}
+.texto{
+    color: #ffffff;
+    fill: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.fondo{
+    background-image: url(../images/EDIFICIO-PODER-JUDICIAL-1024x661.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+.imagen{
+    background: rgb(17, 79, 123);
+    float: left;
+    max-width: 4%;
+    height: 1%;
+    width: auto;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.segundo{
+    float: center;
+    display: flex;
+}
+.subtitle_form{
+    float: center;
+    color: rgb(235, 238, 239);
+    margin-left: 8%;
+}
+.form_label{
+    margin: top 2%;
+}
+.label1{
+    margin: 4%;
+    justify-content: center;
+}
+.title_label{
+    color: white;
+    margin-left: 4%;
+    padding: 1%;
+    background:rgb(17, 79, 123);
+    box-shadow: -1px 3px 43px 0px rgb(84, 76, 84);
+}
+.avatar{
+    margin-left: 1%;
+    max-width: 1%;
+    height: auto;
+    width: 1%;
+}
+.box{
+    position: absolute;
+}
+.src{
+    outline: none;
+    font-size: 18px;
+    color: #444;
+    border: 3px solid #a50559;
+    background: #fff url(../images/buscador.png) no-repeat;
+    width: 60px;
+    transition: all .5s;
+
+}
+.src:hover{
+    width: 180px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #6dcff680;
+}
+.fotos{
+    height: 150px;
+    width: 230px;
+    cursor: pointer;
+    justify-content: center;
+}
+.colum_content{
+    float: center;
+    width: 100%;
+    margin-top: 30% !important;
+    margin-left: 30%;
+
+}
+.fotos2{
+    height: 350px;
+    width: 230px;
+    cursor: pointer;
+    justify-content: center;
+}
+.card{
+    float: left;
+    width: 230px;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 1%;
+    color: #04547f;
+    cursor: pointer;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 20px 0 rgba(77, 130, 141, 0.5);
+    background: white;
+}
+.card2{
+    float: left;
+    width: 230px;
+    margin-left: 5%;
+    height: 350px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 6px 20px 0  rgba(98, 198, 218, 0.5);
+}
+.subtitle{
+    text-align: center;
+    float: center;
+    margin-top: 10%;
+    color: rgba(255, 255, 255, 0.851);
+}
+.lateral_list{
+    width: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+.lateral_items{
+    color: #f5f7f9;
+    text-decoration: none;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+.container-footer{
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(rgba(229, 231, 235, 0.714), rgba(252, 252, 255, 0.709));
+    margin-top: 40px;
+}
+
+.logo-footer{
+    margin-left: 47%;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: rgb(99, 97, 97);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+.icon-footer:hover{
+    background: #04547f;
+    width: 25px;
+    height: 25px;
+    transition: 2seg;
+    color: #ffffff;
+}

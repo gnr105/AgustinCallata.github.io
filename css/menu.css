@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    margin: 0%;
+    background: black;
+    font-size: auto;
+
+}
+.title_name{
+    color: #ffffff;
+    font-family: 'Lucida Calligraphy', 'Lucida', serif;
+    font-size: 22px;
+    margin-left: 1%;
+    display: inline-block;
+}
+.logo{
+    float: left;
+    margin-left: 2%;
+    max-width: 4%;
+    height: auto;
+    width: auto;
+}
+.menu{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5%;
+}
+.texto{
+    color: #ffffff;
+    fill: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.fotos{
+    height: 40px;
+    width: 40px;
+    filter:hue-rotate(50deg) brightness(350%);
+    cursor: pointer;
+    text-align: center;
+}
+.fondo_menu{
+    background-image: url(../images/judicial.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 5px solid wheat;
+    position: relative;
+    height: 30vh;
+}
+.celdas{
+    background: linear-gradient(rgba(200, 203, 211, 0.3), rgba(194, 194, 195, 0.3));
+    border-left: 3px solid wheat;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    padding: 1%;
+    width: 200px;
+    height: auto;
+    color: #04547f;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.celdas:hover{
+    background: linear-gradient(rgba(142, 165, 211, 0.714), rgba(119, 119, 219, 0.709));
+    width: 5px;
+    height: 10px;
+    transition: 3seg;
+}
+.celdas7{
+    background: linear-gradient(rgba(200, 203, 211, 0.3), rgba(194, 194, 195, 0.3));
+    border-left: 3px solid wheat;
+    border-right: 3px solid wheat;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    padding: 1%;
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    color: #04547f;
+    font-size: 15px;
+    transition: all .5s;
+}
+.celdas7:hover{
+    background: linear-gradient(rgba(142, 165, 211, 0.714), rgba(119, 119, 219, 0.709));
+    width: 25px;
+    height: 25px;
+    transition: 3seg;
+}
+.table_form{
+    padding: 3%;
+    padding-block: center;
+}
+.container-footer{
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(rgba(229, 231, 235, 0.714), rgba(252, 252, 255, 0.709));
+    margin-top: 40px;
+}
+
+.logo-footer{
+    margin-left: 47%;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icon-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: rgb(99, 97, 97);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+.icon-footer:hover{
+    background: #04547f;
+    width: 25px;
+    height: 25px;
+    transition: 2seg;
+    color: #ffffff;
+}
